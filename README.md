@@ -6,13 +6,15 @@ This application provides a platform for its users to borrow and repay loans fro
 
  
 ### Tech/Framework
-> Python 3.9.7, Django  
+> Python 3.9.7, Django 4.0.3
 ### Getting started 
-> git clone the repo  
+> git clone the repo
+> cd frb
 > python3 -m venv ./venv  (Create venv)  
 > pip install -r requirements.txt (Install python packages)  
-> cd deplpyment
-> python prediction_model.py
+> python manage.py makemigrations
+> python manage.py migrate
+> python manage.py runserver
 
 
 
