@@ -12,9 +12,9 @@ This application provides a platform for its users to borrow and repay loans fro
 > cd frb
 > python3 -m venv ./venv  (Create venv)  
 > pip install -r requirements.txt (Install python packages)  
-> python manage.py makemigrations
-> python manage.py migrate
-> python manage.py runserver
+> python manage.py makemigrations  
+> python manage.py migrate  
+> python manage.py runserver  
 
 
 
