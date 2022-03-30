@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 
-    <title>FRB | Home</title>
+    <title>FRB {% block title %}{% endblock %}</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -72,7 +72,7 @@
   </body>
       <!-- Copyright -->
       <div class="footer-copyright text-center py-1 bg-dark fixed-bottom" style="font-size: smaller;">
-        <p style="color: white;">© <span id="copyright_year"></span> Friends Reference Bureau. All Rights Reserved<br> Powered by <a style="color: white;" href="https://aqila.co.ke" target="_blank" rel="noreferrer">Aqila</a></p>
+        <p style="color: white;">© <span id="copyright_year"></span> FRB. All Rights Reserved. Powered by <a style="color: white;" href="https://aqila.co.ke" target="_blank" rel="noreferrer">Aqila</a></p>
       </div>
       <!-- Copyright -->
       <script>
