@@ -26,3 +26,6 @@ def loans_due(request):
 
 def apply(request):
     return render(request, 'main/apply.html')
+
+def loan_requests(request):
+    return render(request, 'main/loan_requests.html')
