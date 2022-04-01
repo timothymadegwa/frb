@@ -29,3 +29,6 @@ def apply(request):
 
 def loan_requests(request):
     return render(request, 'main/loan_requests.html')
+
+def history(request):
+    return render(request, 'main/history.html')

@@ -11,4 +11,5 @@ urlpatterns = [
     path('loans_due', views.loans_due, name = 'loans_due'),
     path('apply', views.apply, name = 'apply'),
     path('loan_requests', views.loan_requests, name = 'loan_requests'),
+    path('history', views.history, name = 'history'),
 ]
