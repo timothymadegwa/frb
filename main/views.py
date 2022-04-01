@@ -14,3 +14,6 @@ def login(request):
 
 def register(request):
     return render(request, 'main/register.html')
+
+def wallet(request):
+    return render(request, 'main/wallet.html')

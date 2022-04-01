@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %} | Wallet {% endblock %}
+{% block content %}
+      <div class="container">
+        <div class="text-center">
+            <div class="card alert-success text-dark m-2 shadow px-2">
+                <div class="card-header">
+                    Wallet Balance
+                </div>
+                <div class="card-body">
+                    <h4 class="display-5"> KES: <span id="ewallet">5,267.00</span></h4>
+                </div>
+            </div><br>
+            <div class="card alert-success text-dark m-2 shadow px-2">
+                <div class="card-header">
+                    Loans Due
+                </div>
+                <div class="card-body">
+                    <h4 class="display-5"> KES: <span id="ewallet">15,723.00</span></h4>
+                </div>
+            </div>
+        </div>
+          
+      </div>
+      {% endblock content %}
