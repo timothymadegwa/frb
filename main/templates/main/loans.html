@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load humanize %}
-{% block title %} | Wallet {% endblock %}
+{% block title %} | Loans {% endblock %}
 {% block content %}
       <div class="container">
         <div class="text-center">
@@ -28,31 +28,31 @@
                   <div class="card shadow h-100">
                     <div class="card-body">
                       <i class="fas fa-money-bill fa-3x px-2" aria-hidden="true"> </i>
-                      <a href="#" class="stretched-link"><h5 class="card-title"><br>Top-up</h5></a>
+                      <a href="#" class="stretched-link"><h5 class="card-title"><br>Loan(s) Due</h5></a>
                     </div>
                   </div>
                 </div>
                 <div class="col mb-3 p-2">
                     <div class="card shadow h-100">
                       <div class="card-body">
-                        <i class="fas fa-money-bill fa-3x px-2" aria-hidden="true"></i>
-                        <a href="#" class="stretched-link"><h5 class="card-title"><br>Withdraw</h5></a>
+                        <i class="fas fa-hand-holding-usd fa-3x px-2" aria-hidden="true"></i>
+                        <a href="#" class="stretched-link"><h5 class="card-title"><br>Request for a Loan</h5></a>
                       </div>
                     </div>
-                </div>
+                </div>                  
             </div>
-        </div><hr>
+        </div>
         <div class="text-center">
-            <h4>Wallet Security</h4><hr>
+            <h4>Quick Links</h4><hr>
             <div class="row text-center">
                 <div class="col-md-6">
-                  <a href="#" class="btn btn-dark col-8 rounded-pill mb-3">Change wallet pin</a>
+                  <a href="#" class="btn btn-dark col-8 rounded-pill mb-3">View Loan Requests</a>
                 </div>
                 <div class="col-md-6">
-                  <a href="#" class="btn btn-dark col-8 rounded-pill mb-3">Reset wallet pin</a>
+                  <a href="{% url 'wallet' %}" class="btn btn-dark col-8 rounded-pill mb-3">E-Wallet</a>
                 </div>
               </div>
         </div>
           
-      </div><br><br><br>
+      </div><br><br><br>      
       {% endblock content %}

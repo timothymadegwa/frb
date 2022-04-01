@@ -17,3 +17,6 @@ def register(request):
 
 def wallet(request):
     return render(request, 'main/wallet.html')
+
+def loans(request):
+    return render(request, 'main/loans.html')
