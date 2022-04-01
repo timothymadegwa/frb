@@ -20,3 +20,6 @@ def wallet(request):
 
 def loans(request):
     return render(request, 'main/loans.html')
+
+def loans_due(request):
+    return render(request, 'main/loans_due.html')

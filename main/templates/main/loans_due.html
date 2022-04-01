@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %} | Wallet {% endblock %}
+{% block content %}
+      <div class="container"><br>
+        <div class="card">
+            <div class="card-header">
+               <strong> WYSH67382 </strong>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Lender: Thomas Madegwa</h5>
+              <p class="card-text">
+                  Amount Granted : KES 5,000 <br>
+                  Date Granted : 1/4/2022 <br>
+                  Due Date : 1/5/2022 <br>
+                  Interest Rate : 5% <br>
+                  Amount + Interest : KES 5,250 <br>
+                  Facility Fee : KES 50 <br>
+                  Repayment : KES 2,000 <br>
+                  Amount Due : KES 3,250 <br>
+              </p><hr>
+              <div class="text-center">
+                <a href="#" class="btn btn-dark rounded-pill col-6 px-2">Make Partial Payment</a><br><br>
+                <a href="#" class="btn btn-dark rounded-pill col-6 px-2">Make Full Payment</a>
+              </div>
+            </div>
+          </div><br><br>
+          <div class="card">
+            <div class="card-header">
+               <strong> WYSH67589 </strong>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Lender: John Doe</h5>
+              <p class="card-text">
+                  Amount Granted : KES 3,000 <br>
+                  Date Granted : 23/3/2022 <br>
+                  Due Date : 23/4/2022 <br>
+                  Interest Rate : 5% <br>
+                  Amount + Interest : KES 3,150 <br>
+                  Facility Fee : KES 30 <br>
+                  Repayment : KES 2,000 <br>
+                  Amount Due : KES 1,150 <br>
+              </p><hr>
+              <div class="text-center">
+                <a href="#" class="btn btn-dark rounded-pill col-6 px-2">Make Partial Payment</a><br><br>
+                <a href="#" class="btn btn-dark rounded-pill col-6 px-2">Make Full Payment</a>
+              </div>
+            </div>
+          </div>
+          
+      </div><br><br><br>
+      {% endblock content %}
