@@ -32,3 +32,6 @@ def loan_requests(request):
 
 def history(request):
     return render(request, 'main/history.html')
+
+def courses(request):
+    return render(request, 'main/courses.html')

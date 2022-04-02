@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load humanize %}
+{% block title %} | Courses {% endblock %}
+{% block content %}
+      <div class="container"><br>
+        <div class="text-center">
+            <h3>Welcome to the Education Platform!</h3><hr>
+        </div>
+        <div class="card">
+            <h5 class="card-header">Introduction to FRB</h5>
+            <div class="card-body">
+              <h5 class="card-title">Overview of the FRB Application</h5>
+              <p class="card-text">An Introduction to the Friends Reference Bureau Application.</p>
+              <a href="#" class="btn btn-dark rounded-pill col-6">Go to Course</a>
+            </div>
+          </div><br>
+          <div class="card">
+            <h5 class="card-header">What is a credit score</h5>
+            <div class="card-body">
+              <h5 class="card-title">Importance of credit scores</h5>
+              <p class="card-text">An Introduction to the credit scores.</p>
+              <a href="#" class="btn btn-dark rounded-pill col-6">Go to Course</a>
+            </div>
+          </div>
+          
+      </div><br><br><br>
+      {% endblock content %}
